@@ -42,6 +42,7 @@ coverage.xml
 
 # Jupyter Notebook
 .ipynb_checkpoints/
+[T]emp
 
 # Pytest
 .pytest_cache/
