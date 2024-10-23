@@ -1,13 +1,15 @@
 import pickle
 import pandas as pd
 from flask import Flask, request, Response
-from rossmann_project import Rossmann
+from rossmann.Rossmann import Rossmann
 
 # Loading model
-model = pickle.load(open('C:/Users/Felipe/Documents/Felipe/Cursos/'
-                         'CientistaDados/repos/ds_production/'
-                         'rossmann_project/model/'
-                         'model_xgb_tuned_rossmann.pkl', 'rb'))
+model_path = ('C:/Users/Felipe/Documents/Felipe/Cursos/'
+              'CientistaDados/repos/ds_production/'
+              'rossmann_project/model/model_xgb_tuned_rossmann.pkl')
+
+model = pickle.load(open(model_path, 'rb'))
+
 
 # Initialize API
 app = Flask(__name__)
