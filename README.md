@@ -4,7 +4,7 @@
 
 ## 📲 Resultado
 
-Qualquer pessoa conectada à um dispositivo com internet pode acessar via api a previsão de faturamento de seis semanas de qualquer loja Rossmann, em tempo real, através de um bot no Telegram.
+Qualquer pessoa conectada à um dispositivo com internet pode acessar a previsão de faturamento de seis semanas de qualquer loja Rossmann, em tempo real, através de um bot no Telegram.
 
 ![Bot no Telegram](img/bot_telegram.jpeg)
 
