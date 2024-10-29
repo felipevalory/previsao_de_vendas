@@ -6,7 +6,7 @@
 
 Qualquer pessoa conectada à um dispositivo com internet pode acessar via api a previsão de faturamento de seis semanas de qualquer loja Rossmann, em tempo real, através de um bot no Telegram.
 
-![Bot no Telegram](img/bot_telegram.jpg)
+![Bot no Telegram](img/bot_telegram.jpeg)
 
 ## 💼 Contexto de Negócio
 
@@ -45,19 +45,19 @@ Aplicação do ciclo CRISP (Cross-Industry Process) focado em Ciência de Dados 
 
 Na análise entre as variáveis Vendas x Distância entre competidores, apesar da baixa correlação, farmácias Rossmann localizadas próximas umas das outras fazem com que as vendas aumentem de maneira geral.
 
-![Competidores próximos aumentam as vendas](img/stores_with_closer_competitors_sell_more.jpg)
+![Competidores próximos aumentam as vendas](img/stores_with_closer_competitors_sell_more.png)
 
 ### As lojas vendem menos aos finais de semana
 
 Com alta correlação, aos finais de semana, especialmente aos domingos, há uma queda considerável nas vendas de produtos das lojas.
 
-![Lojas vendem menos aos finais de semana](img/stores_sell_less_on_weekends.jpg)
+![Lojas vendem menos aos finais de semana](img/stores_sell_less_on_weekends.png)
 
 ### As lojas vendem menos no segundo semestre do ano
 
 De agosto a dezembro há uma queda em torno de 30% nas vendas em relação ao restante do ano.
 
-![Lojas vendem menos no segundo semestre](img/sales_by_month.jpg)
+![Lojas vendem menos no segundo semestre](img/sales_by_month.png)
 
 ## 🤖 Machine Learning
 
